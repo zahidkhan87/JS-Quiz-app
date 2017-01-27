@@ -1,0 +1,285 @@
+#quesAns{
+    display: none;
+}
+body{
+        background: url(images/bg.png);
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+}
+#container{
+    height: 650px;
+    width: 45%;
+    margin: 0 auto;
+    background: url(images/123.jpg);
+    margin-top: 30px;
+    background-repeat: no-repeat;
+
+}
+.logo{
+    width: 50%;
+    height: 50%;
+    padding-top: 40px;
+}
+.heading{
+    color: darkgreen;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+.slogan{
+    color: darkblue;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.button{
+    width: 30%;
+    height: 45px;
+    background-color: seagreen;
+    color: white;
+    font-size: 23px;
+    font-family: arial;
+    cursor: pointer;
+    margin-bottom: 11px;
+    border: 2px solid white;
+    transition: 0.8s;
+    outline: none;
+    margin-top: 50px;
+}
+.button:hover{
+    background-color: lightgreen;
+    color: darkgreen;
+    border: 2px solid #0f75bd;
+}
+.button:active{
+    background-color: #091d23;
+    color: white;
+    border: 2px solid white;
+    transition: 0s
+}
+#qcounter{
+    color: darkgreen;
+    margin-left: 10px;
+    font-size: 25px;
+}
+#counter{
+    border-bottom: 2px solid white;
+    width: 100%;
+    height: 60px;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+#demo{
+    color: red;
+    margin-right: 10px;
+    font-size: 30px;
+}
+.options{
+    color: darkblue;
+    margin-left: 20px;
+    text-align: left;
+    font-family: arial;
+    transition: 0.4s;
+    font-size: 20px;
+}
+#ques{
+    color: darkblue;
+    padding: 10px;
+    text-align: left;
+    font-size: 22px;
+    font-family: arial;
+    transition: 0.4s;
+}
+#nxt{
+    
+    width: 20%;
+    height: 40px;
+    background-color: seagreen;
+    color: white;
+    font-size: 23px;
+    font-family: arial;
+    cursor: pointer;
+    margin-bottom: 11px;
+    border: 2px solid white;
+    transition: 0.8s;
+    outline: none;
+    float:  right;
+    margin-top: 100px;
+}
+#nxt:hover{
+    background-color: lightgreen;
+    color: darkgreen;
+    border: 2px solid #0f75bd;
+}
+#nxt:active{
+    background-color: #091d23;
+    color: white;
+    border: 2px solid white;
+    transition: 0s
+}
+
+
+
+.hdngCorrect{
+    color: darkred;
+    font-size: 24px;
+}
+#remarks{
+    color:royalblue; 
+}
+#rightAns{
+    color: black;
+    font-size: 24px;
+}
+#score{
+    color: black;
+    font-size: 24px;
+}
+.results{
+    display: none;
+}
+
+#mh{
+    text-decoration: none;
+    cursor: pointer;
+    font-family: fantasy;
+    color: darkorange;
+}
+
+
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #container{
+        width: 99%;
+        height: auto;
+    }
+    .logo {
+    width: 40%;
+    height: 200px;
+    }
+    #remarks{
+        font-size: 20px;
+    }
+    .button{
+        width: 55%;
+    }
+    #nxt{
+        width: 50%;
+    }
+
+}
+
+
+@media only screen  and (min-width : 1824px) {
+    #container{
+        width: 50%;
+        height: auto;
+    }
+    .heading{font-size: 50px}
+    .slogan{font-size: 30px;}
+    .logo{
+        height: 630px;
+        width: 100%;
+    }
+    .button{
+        width: 30%;
+        height: 50px;
+        font-size: 35px;
+    }
+    #nxt{
+        width: 30%;
+        height: 50px;
+        font-size: 35px;
+    }
+    #counter{
+        height: 90px;
+    }
+    #qcounter{
+        font-size: 30px;
+    }
+    #demo{
+        font-size: 30px;
+    }
+    #ques{
+        font-size: 45px;
+    }
+    .options{
+        font-size: 45px;
+    }
+    input[type=radio] {
+    zoom: 2.5;
+}
+#remarks{font-size: 50px}
+.hdngCorrect{font-size: 48px}
+#rightAns{font-size: 60px}
+#score{font-size: 60px}
+}
+
+
+        #copyright
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		border-top: 20px solid rgba(255,255,255,0.08);
+		text-align: center;
+	}
+    ul.contact
+	{
+		margin: 0;
+		padding: 2em 0em 0em 0em;
+		list-style: none;
+	}
+	
+	ul.contact li
+	{
+		display: inline-block;
+		padding: 0em 0.10em;
+		font-size: 1em;
+	}
+	
+	ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul.contact li a
+	{
+		color: #FFF;
+	}
+	
+	ul.contact li a:before
+	{
+		display: inline-block;
+		background: #4C93B9;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		color: rgba(255,255,255,1);
+	}
+    .icon{
+        width: 35px;
+        height: 35px;
+    }
+    .author{
+        height: 150px;
+        float: right;
+        padding-right: 50px;
+        padding-top: 50px;
+        background-image: url(images/me.png);
+        border-top-left-radius: 150px;
+        width: 150px;
+        border-top-right-radius: 150px;
+        border-bottom-left-radius: 150px;
+        border-bottom-right-radius: 150px;
+    }

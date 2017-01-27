@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style2.css" media="all">
+   <!-- <link rel="stylesheet" href="style.css" media="all">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icon.png" media="all">
+    <title>JS Quiz App</title>
+</head>
+<body>
+    <div class="author" title="Zahid Mehmood">
+            
+        </div>
+    
+    <div id="container">
+        <center><h1 class="heading">JavaScript Quiz App</h1>
+        
+    <div class="main">
+        <img src="images/js.png" alt="" class="logo"><br>
+        <button id="btn" class="button" onclick="timer(); nxtQues();">Start Quiz</button><br>
+        </div>
+        </center>
+
+
+<div class="qa">
+         <div id="quesAns"> 
+        <div id="counter">
+            <span class="left">
+                <p id="qcounter"></p>
+            </span>
+
+            <span class="right">
+                <p id="demo">05:00</p>
+            </span>
+        </div>
+        <center>
+            
+        <p id="ques"></p>
+        
+        <p class="options"></p> 
+        <p class="options"></p> 
+        <p class="options"></p> 
+        <p class="options"></p> 
+        <button type="button" id="nxt" onclick="next()" >Next</button>
+        </center>
+        </div>
+        </div>
+            <center>
+    <div class="results">
+        <h1 id="remarks"></h1>
+        
+            <h3 class="hdngCorrect"> Correct Answers </h3>
+            <h3 id="rightAns"></h3>
+
+            <h3 class="hdngCorrect"> Score </h3>
+            <h3 id="score"></h3>
+            <button id="btn" class="button" onclick=" tryAgain(); timer();">Try Again</button><br>
+        
+    </div>
+    </center>
+    
+    </div>
+    <div>
+        <center>
+     <address>Follow or Contact:</address>
+    <ul class="contact">
+		<li><a href="https://www.github.com/zahidkhan87" target="_blank" title="Github"><img src="images/git.png" alt="Github" class="icon"></a></li>
+		<li><a href="https://facebook.com/zahid.mehmood.359778" target="_blank" title="Facebook"><img src="images/fb.png" alt="Facebook" class="icon"></a></li>
+		<li><a href="skype:ibm.zahid" title="Skype"><img src="images/sky.png" alt="Skype" class="icon"></a></li>
+		<li><a href="mailto:zahidmehmood87@ymail.com" title="e-mail"><img src="images/email.png" alt="e-mail" class="icon"></a></li>
+			</ul>
+            </center>
+    </div>
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
